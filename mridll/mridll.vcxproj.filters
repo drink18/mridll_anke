@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FirstechNMR.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jsoncpp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="box.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jsonrpcserver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="server\connectors\tcpsocketserver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="server\connectors\windowstcpsocketserver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="server\abstractprotocolhandler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="server\abstractserverconnector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="server\requesthandlerfactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="server\rpcprotocolserver12.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="server\rpcprotocolserverv1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="server\rpcprotocolserverv2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="common\errors.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="common\exception.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="common\procedure.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="common\specificationparser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="common\specificationwriter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FirstechNMR.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HardwareRegInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorNO.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mridll.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="box.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="server\connectors\tcpsocketserver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="server\abstractprotocolhandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="server\abstractserver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="server\abstractserverconnector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="server\iclientconnectionhandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="server\iprocedureinvokationhandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="server\requesthandlerfactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="server\rpcprotocolserver12.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="server\rpcprotocolserverv1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="server\rpcprotocolserverv2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="common\errors.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="common\exception.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="common\procedure.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="common\specification.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="common\specificationparser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="common\specificationwriter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="server.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mri.def">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="common\jsonparser.h.in" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\DLLDEMO_ANKE\DLLDEMO_ANKE\ReadMe.txt">
+      <Filter>头文件</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
